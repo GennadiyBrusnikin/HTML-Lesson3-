@@ -1,0 +1,207 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: #f9f9f9;
+}
+
+
+.all{
+
+	margin: 0 60px;
+	background: white;
+	height: 837px;
+	border: 3px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	
+}
+
+.logo{
+
+	margin-left: 70px;
+	margin-top: 60px;
+
+}
+
+.header{
+
+	margin: 20px 70px;
+	background: #535353;
+}
+
+.header ul{
+
+	height: 50px;
+	list-style: none;
+	
+}
+
+.header ul li{
+	display: inline-block;
+	line-height: 20px;
+    padding-top: 15px;
+	text-align: center;
+	height: 35px;
+	width: 150px;
+
+
+
+}
+
+.favorite{
+
+	padding-right: 50px;
+}
+
+.header ul li a{
+
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+
+}
+
+.header li:hover {
+    background: #373737; /* Цвет фона под ссылкой */
+    /*color: #800000;  Новый цвет ссылки */
+    border-left: 1px solid white;
+    border-right: 1px solid white; /* Рамка вокруг ссылки */
+   
+}
+
+
+.content{
+
+	margin: 0px 70px 20px 0;
+	float: right;
+	width: 55%
+	
+}
+
+
+
+.bike{
+	
+	
+	height: 330px;
+	width: 648px;
+	float: right;
+
+}
+
+.content p{
+	margin: 20px 0 20px 40px;
+	clear: right;
+	padding-top: 25px;
+	
+
+}
+
+
+
+.sidebar{
+
+	width: 45%;
+	margin: 20px 10px 20px 70px;
+}
+
+.sidebar ul{
+
+	text-align: left;
+	list-style: none;
+
+}
+
+.sidebar li:hover {
+    background: #f9f9f9; /* Цвет фона под ссылкой */
+    /*color: #800000;  Новый цвет ссылки */
+    border: 1px solid #634f36; /* Рамка вокруг ссылки */
+   }
+
+.sidebar ul li{
+
+	height: 30px;
+	width: 300px;
+	border: 1px solid #c8c8c8;
+	padding-left: 42px;
+	padding-top: 12px;	
+
+}
+
+
+.overlow{
+	position: relative;
+	overflow: hidden;
+}
+	
+.footer{
+	clear: both;
+	margin: 40px 70px;
+	background: #e1e1e1;
+
+}
+
+.footer ul{
+
+	list-style: none;
+	height: 50px;
+	
+}
+
+.footer ul li{
+
+	font-size: 20px;
+
+	display: inline-block;
+	
+	line-height: 7px;
+    padding-top: 21px;
+	text-align: center;
+	height: 29px;
+	width: 150px;
+}
+
+.footer li:hover {
+    /*background: #f9f9f9; *//* Цвет фона под ссылкой */
+    /*color: #800000;  Новый цвет ссылки */
+    /*border: 1px solid #634f36;*/ /* Рамка вокруг ссылки */
+    text-decoration: underline;
+   }
+
+
+
+
+
+
+
+
+/*ul{
+	
+	height: 50px;
+	list-style: none;
+	background: grey;
+	margin: 20px 70px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+
+li{
+    text-decoration: none;
+	height: 50px;
+	line-height: 15px;
+	
+	display: inline-block;
+	margin-left: 80px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.favorite	*/
