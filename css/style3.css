@@ -1,0 +1,215 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background-image: url(../img/fon.jpg);
+}
+
+.all{
+
+	margin: 0 auto;
+	/*margin-bottom: 40px;*/
+	height: 1009px;
+	width: 80%;
+	background: white;
+	box-shadow: 0 0 44px rgba(0,0,0,0.5); /* Параметры тени */
+	border-bottom: 3px solid black;
+	
+
+
+}
+
+.header{
+
+	border-bottom: 1px solid blue;
+}
+
+.logo{
+	
+	margin: 20px;
+	height: 169px;
+}
+
+.numbers{
+
+	float: right;
+	margin: 20px 55px 0 0;
+}
+
+.Country{
+
+	float: right;
+	clear: both;
+	margin: 38px 45px 0 0;
+}
+
+.fon {
+
+	height: 238px;
+	background-image: url(../img/Foto.jpg);
+	background-repeat: no-repeat;
+	background-size: 120% 459px;
+	background-position: -104px -218px;
+	border-bottom: 1px solid blue;
+
+}
+
+.menu{
+
+	background: #333333;
+	height: 40px;
+	box-shadow: 0 0 11px rgba(0,0,0,2.5); /* Параметры тени */
+	border-bottom: 1px solid black;
+	border-top: 1px solid white;
+}
+
+
+.menu li{
+
+	display: inline-block;
+	/*list-style: none;*/
+	/*list-style-image: url(../img/Bird.gif);*/
+	height: 40px;
+	width: 144px;
+	text-align: center;
+
+	
+}
+
+
+
+.menu li a{
+
+	text-decoration: none;
+	color: white;
+	font-family: tahoma;
+	font-size: 15px;
+}
+
+.menu ul{
+
+	display: block;
+	margin: 0;
+    padding: 0;
+    /*list-style: none;*/
+}
+
+.menu ul:after {
+
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+
+}    
+
+.menu ul.full > li {
+
+    float: left;
+    position: relative;
+
+}
+
+.menu ul.full > li > a {
+
+    display: block;
+    padding: 11px;
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+}    
+
+
+.menu ul.full > li > a:hover {
+
+    background-color: #333333;
+    text-decoration: none;
+}
+ul.submenu {
+
+    display: none;
+    position: absolute;
+    width: 144px;
+    top: 40px;
+    left: 0;
+    border: 1px solid black;
+    text-decoration: none;
+}
+ul.submenu > li {
+
+    display: block;
+    border-bottom: 1px solid black;
+}
+ul.submenu > li > a {
+
+    display: block;
+    padding: 11px;
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+
+    text-decoration: none;
+}
+
+ul.full > li:hover > ul.submenu {
+
+    display: block;
+}
+
+.box2{
+	float: right;
+	width: 24%;
+	background: #edeef0;
+	border-left: 2px solid #c7cacf;
+	font-size: 19px;
+	line-height: 33px;
+	text-align: center;
+	padding: 14px;
+}
+
+.box2 p{
+
+	font-weight: 800;
+}
+
+.box1{
+
+	background: #edeef0;
+	border-right: 2px solid #c7cacf;
+	font-size: 19px;
+	line-height: 32px;
+	text-align: center;
+	padding: 14px;
+	width: 24%;
+	height: 491px;
+
+}
+
+.box1 p{
+
+	font-weight: 800;
+
+}
+
+.conteiner{
+
+	position: relative;
+	overflow: hidden;
+	height: 556px;
+}
+
+.footer{
+
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: white;
+	
+}
+
