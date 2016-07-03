@@ -5,8 +5,9 @@
 }
 
 body{
-
+	
 	background-image: url(../img/fon.jpg);
+   	
 }
 
 .all{
@@ -24,13 +25,14 @@ body{
 }
 
 .header{
-
 	border-bottom: 1px solid blue;
+	height: 213px;
+
 }
 
 .logo{
 	
-	margin: 20px;
+	margin: 44px 20px 0 20px;
 	height: 169px;
 }
 
@@ -40,54 +42,61 @@ body{
 	margin: 20px 55px 0 0;
 }
 
-.Country{
-
+.countries{
+	
+	margin-top: 20px;
 	float: right;
+	padding-top: 20px;
+	margin-right: 30px;
 	clear: both;
-	margin: 38px 45px 0 0;
-}
-
-.fon {
-
-	height: 238px;
-	background-image: url(../img/Foto.jpg);
-	background-repeat: no-repeat;
-	background-size: 120% 459px;
-	background-position: -104px -218px;
-	border-bottom: 1px solid blue;
+	height: 57px;
+	font-size: 10px;
 
 }
 
-.menu{
+.countries ul{
 
-	background: #333333;
-	height: 40px;
-	box-shadow: 0 0 11px rgba(0,0,0,2.5); /* Параметры тени */
-	border-bottom: 1px solid black;
-	border-top: 1px solid white;
+	list-style: none;
 }
 
-
-.menu li{
+.countries ul li{
 
 	display: inline-block;
-	/*list-style: none;*/
-	/*list-style-image: url(../img/Bird.gif);*/
-	height: 40px;
-	width: 144px;
 	text-align: center;
+	padding-right: 12px;
+}
 
+.countries a{
+
+	color: #128aa7;
+}
+
+.fon{
+
+	height: 240px;
+	/*background-image: url(../img/Foto.jpg);*/
+	/*background-size: 100% 200px;*/
+	/*border-bottom: 1px solid blue;*/
+	/*background-repeat: no-repeat center;*/
+		
+}
+
+.fon img{
+
+	height: 240px;
+	width: 100%;
 	
 }
 
 
+.menu{
 
-.menu li a{
-
-	text-decoration: none;
-	color: white;
-	font-family: tahoma;
-	font-size: 15px;
+	background: #333333;
+	height: 41px;
+	box-shadow: 0 0 11px rgba(0,0,0,2.5);
+	border-bottom: 1px solid black;
+	border-top: 1px solid white;
+	border-bottom: 1px solid black;
 }
 
 .menu ul{
@@ -95,7 +104,8 @@ body{
 	display: block;
 	margin: 0;
     padding: 0;
-    /*list-style: none;*/
+    list-style: none;
+
 }
 
 .menu ul:after {
@@ -121,95 +131,134 @@ body{
     color: white;
     background-color: #333333;
     text-decoration: none;
+    font-size: 14px;
 }    
 
+.menu li{
+
+	display: inline-block;
+	/*list-style: none;*/
+	list-style-image: url(../img/Bird.gif);
+	height: 40px;
+	width: 144px;
+	text-align: center;
+
+	
+}
+
+.menu li a{
+
+	text-decoration: none;
+	color: white;
+	font-family: tahoma;
+	font-size: 15px;
+}
 
 .menu ul.full > li > a:hover {
 
     background-color: #333333;
     text-decoration: none;
 }
-ul.submenu {
 
-    display: none;
-    position: absolute;
-    width: 144px;
-    top: 40px;
-    left: 0;
-    border: 1px solid black;
-    text-decoration: none;
-}
-ul.submenu > li {
-
-    display: block;
-    border-bottom: 1px solid black;
-}
-ul.submenu > li > a {
-
-    display: block;
-    padding: 11px;
-    color: white;
-    background-color: #333333;
-    text-decoration: none;
-}
-ul.submenu > li > a:hover {
-
-    text-decoration: none;
+ul.submenu{
+	display: none;
+	position: absolute;
+	width: 144px;
+	top: 41px;
+	left: 0;
+	border-top: 1px solid black;
+	text-decoration: none;
+	-webkit-box-shadow: 0px 14px 23px 3px rgba(0,0,0,0.66);
+	-moz-box-shadow: 0px 14px 23px 3px rgba(0,0,0,0.66);
+	box-shadow: 0px 14px 23px 3px rgba(0,0,0,0.66);
+	
 }
 
-ul.full > li:hover > ul.submenu {
+ul.submenu > li{
+	display: block;
+	/*border-bottom: 1px solid black;*/
+	
+}
 
-    display: block;
+ul.submenu > li > a{
+	display: block;
+	padding: 11px;
+	color: white;
+	background-color: #333333;
+	text-decoration: none;
+	
+}
+
+ul.submenu > li > a:hover{
+	text-decoration: none;
+	
+}
+
+ul.full > li:hover > ul.submenu{
+	display: block;
+	
+}
+
+.content{
+
+  text-align: center; /* ??*/
+  font-size: 13px;
+
 }
 
 .box2{
 	float: right;
 	width: 24%;
+	height: 484px;
 	background: #edeef0;
 	border-left: 2px solid #c7cacf;
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 33px;
 	text-align: center;
 	padding: 14px;
+	
 }
+
 
 .box2 p{
-
-	font-weight: 800;
-}
-
-.box1{
-
-	background: #edeef0;
-	border-right: 2px solid #c7cacf;
-	font-size: 19px;
-	line-height: 32px;
-	text-align: center;
-	padding: 14px;
-	width: 24%;
-	height: 491px;
-
+	font-weight: 300;
+	
 }
 
 .box1 p{
 
-	font-weight: 800;
+	font-weight: 300;
+}
 
+.box1{
+	background: #edeef0;
+	border-right: 2px solid #c7cacf;
+	font-size: 18px;
+	line-height: 33px;
+	text-align: center;
+	padding: 14px;
+	width: 24%;
+	height: 484px;
+	
 }
 
 .conteiner{
-
 	position: relative;
 	overflow: hidden;
 	height: 556px;
+	
 }
 
 .footer{
-
+	
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 10px;
 	color: white;
 	
 }
+
+
+
+
 
